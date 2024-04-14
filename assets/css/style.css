@@ -1,5 +1,103 @@
 /* Habib side starts */
 
+/* font-family starts */
+@font-face {
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+    font-family: Oswald-VariableFont_wght;
+}
+/* font-family ends */
+/* body tag start */
+body {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
+/* body tag end */
+/* html tag start */
+html {
+    font-size: 62.5%;
+}
+/* html tag end */
+
+/* Universal tag  starts*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Oswald-VariableFont_wght;
+}
+/* Universal tag ends*/
+/* color code  starts */
+:root {
+    --primary-color:#0B052B;
+    --secondary-color: #140A48;
+    --light-color: #FFFFFF;
+}
+/* color code ends */
+
+/* navbar starts */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.7rem; 
+    padding-bottom: 1.7rem; 
+}
+nav {
+    background-color: var(--primary-color);
+    position:sticky; 
+    top: 0;
+}
+
+
+
+
+.navbar ul li a {
+    color: var(--light-color);
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1.7rem;
+    font-weight: 300;
+    opacity: 0.8;
+    
+}
+
+.nav-ul{
+    padding-right: 5rem;
+}
+.contact:hover{
+    text-decoration: none;
+}
+.contact {
+    border: 0.1rem solid var(--light-color);
+    padding: 0.3rem 1.8rem; 
+    color: var(--light-color);
+}
+
+.image-1 {
+    width: 10em;
+    height: 5rem;
+    margin-left: 4rem;
+    
+}
+
+/* navbar ends */
+
+
+
+
+
+
+
+
+
+
 /* Habib side ends */
 
 

@@ -49,6 +49,8 @@ nav {
     background-color: var(--primary-color);
     position:sticky; 
     top: 0;
+    z-index: 1;
+    
 }
 
 
@@ -230,7 +232,7 @@ nav {
 }
 
 main{
-    background-color: var(--primary-color);
+    background-color: #0B0527;
 }
 .main-container-2{
     margin-top: 12rem;
@@ -294,6 +296,44 @@ main{
     opacity: 0.8;
 }
 
+.main-container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+.para-1{
+    font-size:1.6rem ;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.heading-title-2{
+    font-size: 3.6rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+}
+.left-side{
+    margin-left: 5rem;
+}
+.para-2{
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    opacity: 0.5;
+}
+.right-arrow-btn{
+    padding: 1.5rem 3rem;
+    color: var(--light-color);
+    background-color:#570EBD;
+    border: none;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+.right-arrow-btn:hover{
+         background-color: rgb(91, 83, 83);
+}
+
 
 /* main section ends */
 
@@ -304,12 +344,7 @@ main{
 
 
 
-
 /* Habib side ends */
-
-
-
-
 
 /* Tanver side starts */
 
